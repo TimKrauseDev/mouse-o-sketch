@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+:root {
+    --main-bg-color: #8D2512;
+    --container-bg-color: #5F8B66;
+    --container-border-color: #86A85D;
+    --btn-bg-color: #BABA5B;
+    --text-color: #EDC65F;
+    --grid-border-color: #000;
+}
+
+#body {
+    background-color: var(--main-bg-color);
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    right: -5px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--container-bg-color);
+    border: 5px solid var(--container-border-color);
+    font-size: 60px;
+    letter-spacing: 10px;    
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    height: 500px;
+    width: 500px;
+    border: 5px solid var(--grid-border-color);
+} 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu-box {
+    background-color: var(--container-bg-color);
+    border: 5px solid var(--container-border-color);
+    margin: 0px 20px 0px 20px;
+    width: 150px;
+    height: 500px;
+    font-size: 22px;
+    padding: 0px 10px 0px 10px; 
+}
+.squareBox {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--btn-bg-color);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--btn-bg-color);
+    cursor: pointer;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 20%;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.checkbox:checked {
+    background-color: var(--btn-bg-color);
+}
+
+
+
+
+.padding {
+    padding: 25px 0px 25px 0px;
+}
+
+.button {
+  background-color: var(--btn-bg-color); 
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 20px;
+}

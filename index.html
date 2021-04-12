@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+    </head>
+    <body id='body'>
+        <div id='header'>
+            <span>MOUSE-O-SKETCH</span>
+        </div>
+        <div class='row'>
+            <menu id='menu-left' class='menu-box column'>
+                <div class = 'padding'>
+                    <span>Change Grid Size</span>
+                    <input type="range" id="rangeSlide" class='slider' value="16" min='2' max = '64'>
+                </div>
+                <div class = 'padding vert-align'>
+                    <input id='gridCheckBox' class='checkbox' type='checkbox' name='gridBorder' checked>Grid Border
+                </div>
+                <div class='padding'>
+                    <button id="clear" class='button'>Clear Sketch</button> 
+                </div>
+            </menu>
+            <div id='container'></div>
+            <menu id='menu-right' class='menu-box column'>
+                <label class='radio padding'> 
+                    <input type='radio' class='checkbox' name='sketchType' value='black' checked>
+                    <span class='checkmark'></span>Black
+                </label>
+                <label class='radio padding'> 
+                    <input type='radio' class='checkbox' name='sketchType' value='randomColors'>
+                    <span class='checkmark'></span>Random Colors
+                </label>
+                <label class='radio padding'> 
+                    <input type='radio' class='checkbox' name='sketchType' value='greyScale'>
+                    <span class='checkmark'></span>Grey Scale
+                </label>
+                <label class='radio padding'> 
+                    <input type='radio' class='checkbox' name='sketchType' value='pickColor'>
+                    <span class='checkmark'></span>Color Picker
+                </label>
+                <label>
+                    <input type='color' id='pick' name='sketchType'>  
+                </label>
+                <label class='radio padding'> 
+                    <input type='radio' class='checkbox' name='sketchType' value='erase'>
+                    <span class='checkmark'></span>Erase
+                </label>
+                
+            </menu>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
