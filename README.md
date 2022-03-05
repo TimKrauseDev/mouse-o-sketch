@@ -6,10 +6,9 @@ Source code for my [Mouse-O-Sketch](https://timkrausedev.github.io/mouse-o-sketc
 
 ## Overview
 
-This sorting visualizer is a front-end application that allows users to visualize the following sorting algorithms: Bubble, Insertion, Merge, Quick and Selection. You have the ability to sort the array of bars automatically or step-by-step. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed to [Firebase](https://firebase.google.com/).
-<br />
+This Mouse-O-Sketch application is a fun way to mess around. Use the colors or change the amount of cells in the sketch board, then makes some cool stuff!
 
-<img width="600" alt="merge sort" src="./imgs/mouse.gif">
+
 
 ## Technology Used
 The technology used to create this portfolio include:
