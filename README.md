@@ -7,7 +7,9 @@ Source code for my [Mouse-O-Sketch](https://timkrausedev.github.io/mouse-o-sketc
 ## Overview
 
 This Mouse-O-Sketch application is a fun way to mess around. Use the colors or change the amount of cells in the sketch board, then makes some cool stuff!
+
 <br />
+
 <img width="600" alt="sorting visualizer homepage" src="./imgs/mouse.gif">
 
 ## Technology Used
